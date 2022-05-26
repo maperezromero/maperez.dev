@@ -18,16 +18,19 @@
     font-size: 3rem;
     margin-top: 0;
     text-align: start;
+    /* width: 70vw; */
 }
 
 .header h2{
     color: #8892B0;
     text-align: start;
+    /* width: 70vw; */
 }
 
 .header h3{
     color: #8892B0;
     text-align: start;
+    /* width: 70vw; */
 }
 
 .icon{

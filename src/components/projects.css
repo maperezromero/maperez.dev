@@ -1,7 +1,8 @@
 .projects{
     display: flex;
     flex-wrap: wrap;
-    align-content:space-between;
+    justify-content: center;
+    align-content:space-around;
     gap: 15px;
     margin-top: 30px;
     width: 90vw;
@@ -10,7 +11,7 @@
     border: 2px solid #8892B0;
     border-radius: 5px;
     aspect-ratio: 16/9;
-    width: min(550px, 44vw);
+    width: min(750px, 44vw);
     gap: 10px;
     overflow: hidden;
     cursor: pointer;
