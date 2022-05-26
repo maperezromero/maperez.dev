@@ -30,7 +30,7 @@ function Projects (){
         },
         {name: 'eCommerce',
         description: 'Ecommerce portal example',
-        url: 'https://eccomerce.maperez.dev',
+        url: 'https://ecommerce.maperez.dev',
         github: 'https://github.com/maperezromero/ecommercefront',
         techs: ['react','css'],
         image: ecommerce
