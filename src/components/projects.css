@@ -32,6 +32,7 @@
     border: solid 1px ;
     background-color: #8892B0;
     margin-left: 10px;
+    font-size: 1.2rem;
 }
 .project:hover > .tech-container {
     display: flex;
