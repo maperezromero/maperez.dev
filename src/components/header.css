@@ -1,0 +1,46 @@
+.header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil{
+    height: 12rem;
+    border-radius: 50%;
+}
+
+.about{
+    width: 60vw;
+}
+.header h1{
+    color: white;
+    font-size: 3rem;
+    margin-top: 0;
+    text-align: start;
+}
+
+.header h2{
+    color: #8892B0;
+    text-align: start;
+}
+
+.header h3{
+    color: #8892B0;
+    text-align: start;
+}
+
+.icon{
+    height: 2rem;
+}
+
+
+.icons-container{
+    display: flex;
+    flex-direction:row;
+    gap: 1rem;
+    margin: 1rem;
+    margin-right: 5rem;
+    align-self: flex-end;
+    position: relative;
+}
