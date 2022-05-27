@@ -6,12 +6,12 @@ function Header (){
 return(
     <div className="header">
         <div className='icons-container'>
-            <span className='test'>
+            <span className='icon-container'>
                 <a href="https://github.com/maperezromero"  target="_blank" rel="noreferrer">
                     <img src={github} alt="github" className='icon'></img>
                 </a>
             </span>  
-            <span>
+            <span className='icon-container'>
                 <a href="https://www.linkedin.com/in/miguelangelperezromero/" target="_blank" rel="noreferrer">
                     <img src={linkedin} alt="linkedin" className='icon'></img>
                 </a>

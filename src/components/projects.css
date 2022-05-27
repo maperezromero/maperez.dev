@@ -27,6 +27,7 @@
     height: 100%;
     z-index: 1;
     position: relative;
+    
 }
 .tech{
     border-radius: 5px;
@@ -41,7 +42,7 @@
     visibility: visible;
     gap: 5px;
 }
-.project:hover > .project-image {
+.project:hover .project-image {
     
     z-index: -1;   
     opacity: 0.5; 

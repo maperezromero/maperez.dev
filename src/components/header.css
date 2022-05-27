@@ -33,11 +33,6 @@
     /* width: 70vw; */
 }
 
-.icon{
-    height: 2rem;
-}
-
-
 .icons-container{
     display: flex;
     flex-direction:row;
@@ -47,3 +42,16 @@
     align-self: flex-end;
     position: relative;
 }
+.icon{
+    height: 2rem;
+}
+.icon-container:hover .icon{
+    transform: translateY(-8px);
+    transition-duration: 500ms;
+    transition-property: transform;
+}
+.icon-container:hover::after .icon{
+    transform: translateY(8px);
+    transition-duration: 500ms;
+}
+
