@@ -2,6 +2,7 @@ import airboss from '../images/airboss.png'
 import calculator from '../images/calculator.png'
 import iptracker from '../images/iptracker.png'
 import ecommerce from '../images/ecommerce.png'
+import mytreyo from '../images/my-treyo.png'
 
 
 function Projects (){
@@ -11,7 +12,7 @@ function Projects (){
          description: 'Portal de reserva vuelos',
          url: 'https://airboss.maperez.dev',
          github: 'https://github.com/maperezromero/airboss_HAB',
-         techs: ['react','node','mysql','Google login', 'material ui', 'api'],
+         techs: ['react','node','mysql','Google API', 'Paypal API','material ui', 'api'],
          image: airboss
         },
         {name: 'Calculator',
@@ -34,6 +35,13 @@ function Projects (){
         github: 'https://github.com/maperezromero/ecommercefront',
         techs: ['react','css'],
         image: ecommerce
+        },
+        {name: 'My-Treyo',
+        description: 'Basic to-do app',
+        url: 'https://my-treyo.maperez.dev',
+        github: 'https://github.com/maperezromero/my-treyo',
+        techs: ['react','css'],
+        image: mytreyo
         },
     ]
     return(
