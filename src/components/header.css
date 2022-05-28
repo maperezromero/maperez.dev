@@ -55,3 +55,9 @@
     transition-duration: 500ms;
 }
 
+.logo{
+    height: 16vmin;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
