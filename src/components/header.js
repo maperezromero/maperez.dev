@@ -1,26 +1,28 @@
-import profilePicture from '../images/perfil.png'
+import profilePicture from '../images/perfil.jpg'
 import github from '../images/github.png'
 import linkedin from '../images/linkedin_b.png'
 import logo from '../images/1.png'
 function Header (){
 return(
     <div className="header">
-        <span className='logo-container'>
-                <img src={logo} alt="maperez.dev logo" className='logo'></img>
-            
-        </span>  
 
         <div className='icons-container'>
-            <span className='icon-container'>
-                <a href="https://github.com/maperezromero"  target="_blank" rel="noreferrer">
-                    <img src={github} alt="github" className='icon'></img>
-                </a>
-            </span>  
-            <span className='icon-container'>
-                <a href="https://www.linkedin.com/in/miguelangelperezromero/" target="_blank" rel="noreferrer">
-                    <img src={linkedin} alt="linkedin" className='icon'></img>
-                </a>
-            </span>  
+            <span className='logo-container'>
+                    <img src={logo} alt="maperez.dev logo" className='logo'></img>
+                
+            </span>
+            <span className='RRSS-container'>
+                <span className='icon-container'>
+                    <a href="https://github.com/maperezromero"  target="_blank" rel="noreferrer">
+                        <img src={github} alt="github" className='icon'></img>
+                    </a>
+                </span>  
+                <span className='icon-container'>
+                    <a href="https://www.linkedin.com/in/miguelangelperezromero/" target="_blank" rel="noreferrer">
+                        <img src={linkedin} alt="linkedin" className='icon'></img>
+                    </a>
+                </span>  
+            </span>
         </div>
         <div className="perfil-container">
             <img src={profilePicture} alt="Mi foto de perfil" className='perfil'></img>

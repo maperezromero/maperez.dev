@@ -6,7 +6,7 @@
 }
 
 .perfil{
-    height: 12rem;
+    height: 32vmin;
     border-radius: 50%;
 }
 
@@ -36,14 +36,26 @@
 .icons-container{
     display: flex;
     flex-direction:row;
-    gap: 1rem;
-    margin: 1rem;
-    margin-right: 5rem;
+    justify-content: space-between;
+    /* gap: 1rem; */
+    /* margin: 1rem; */
+    /* margin-right: 5rem; */
     align-self: flex-end;
     position: relative;
+    width: 90vw;
+}
+.RRSS-container{
+    align-self: flex-start;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height: 16vmin;
 }
 .icon{
-    height: 2rem;
+    height: 4vmin;
 }
 .icon-container:hover .icon{
     transform: translateY(-8px);
@@ -54,10 +66,10 @@
     transform: translateY(8px);
     transition-duration: 500ms;
 }
-
+.logo-container{
+    align-self: flex-start;
+}
 .logo{
     height: 16vmin;
-    position: absolute;
-    left: 25px;
-    top: 25px;
+
 }

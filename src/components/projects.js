@@ -3,6 +3,7 @@ import calculator from '../images/calculator.png'
 import iptracker from '../images/iptracker.png'
 import ecommerce from '../images/ecommerce.png'
 import mytreyo from '../images/my-treyo.png'
+import guesstheword from '../images/guess-the-word.png'
 
 
 function Projects (){
@@ -43,9 +44,18 @@ function Projects (){
         techs: ['react','css'],
         image: mytreyo
         },
+        {name: 'guess-the-word',
+        description: 'Wordle Clone app',
+        url: 'https://guess-the-word.maperez.dev',
+        github: 'https://github.com/maperezromero/guess-the-word',
+        techs: ['react','css', 'apis'],
+        image: guesstheword
+        },
+
     ]
     return(
         <div className="projects">
+            
         {projects.map(( p , index )=>(
             <div key={index} className="project">
                 <a href={p.url} target="_blank" rel="noopener noreferrer">
