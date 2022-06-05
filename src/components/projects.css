@@ -17,10 +17,7 @@
     cursor: pointer;
     position: relative;
 }
-.project:hover{
-    /* opacity: 0.5; */
-    /* z-index: -1; */
-}
+
 .project-image{
     object-fit:fill;
     width: 100%;
@@ -45,7 +42,7 @@
 .project:hover .project-image {
     
     z-index: -1;   
-    opacity: 0.5; 
+    opacity: 0.25; 
     position: relative;
     object-fit:fill;
     width: 100%;
