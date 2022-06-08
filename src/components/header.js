@@ -2,6 +2,7 @@ import profilePicture from '../images/perfil.jpg'
 import github from '../images/github.png'
 import linkedin from '../images/linkedin_b.png'
 import logo from '../images/1.png'
+import { Technologies } from './Technologies'
 function Header (){
 return(
     <div className="header">
@@ -35,10 +36,10 @@ return(
                 Miguel Ángel Pérez
             </h1>
             <h2>
-                Soy full stack developer, actualmente trabajo con React, 
-                Node y Mysql/MongoDB. Apasionado de la tecnología y amante 
+                Soy full stack developer, apasionado de la tecnología y amante 
                 de la naturaleza y el aprendizaje continuo como forma de vida.
             </h2>
+            <Technologies/>
         </div>
 
     </div>

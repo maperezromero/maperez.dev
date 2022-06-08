@@ -11,11 +11,11 @@
 }
 
 .about{
-    width: 60vw;
+    width: 80vw;
 }
-.header h1{
+.about h1{
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 0;
     text-align: start;
     /* width: 70vw; */
@@ -71,5 +71,31 @@
 }
 .logo{
     height: 32vmin;
+
+}
+
+@media screen and (max-width: 640px) {
+
+    }
+  
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+    .logo, .perfil{
+        height: 16vmin;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .logo, .perfil{
+        height: 16vmin;
+    }
+    .about{
+        width: 60vw;
+    }
+    .about h1{
+   
+        font-size: 3rem;
+     
+        /* width: 70vw; */
+    }
 
 }
