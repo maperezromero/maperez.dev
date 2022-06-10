@@ -19,18 +19,12 @@ function App() {
     'JavaScript',
     'Responsive Design',
     'MongoDB',
+    'CSS',
     'React'
-  ]
+  ];
 
   useEffect(()=>{
-   /*  const timer = setTimeout(() => {
-      if(technology.index === technologies.length-1){        
-        setTechnology({...technology, tech:technologies[technology.index], index: 0})
-      }else{
-        setTechnology({...technology, tech:technologies[technology.index], index: technology.index+1})
-      }
-    }, 3000); */
-    //return ()=> {clearTimeout(timer)}
+  
     let element = document.getElementById('techs');
     element.addEventListener('animationiteration', (ev) => {
       if(technology.index === technologies.length-1){        
