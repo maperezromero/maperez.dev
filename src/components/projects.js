@@ -1,9 +1,9 @@
-import airboss from '../images/airboss.png'
-import calculator from '../images/calculator.png'
-import iptracker from '../images/iptracker.png'
-import ecommerce from '../images/ecommerce.png'
-import mytreyo from '../images/my-treyo.png'
-import guesstheword from '../images/guess-the-word.png'
+import airboss from '../images/airboss.webp'
+import calculator from '../images/calculator.webp'
+import iptracker from '../images/iptracker.webp'
+import ecommerce from '../images/ecommerce.webp'
+import mytreyo from '../images/my-treyo.webp'
+import guesstheword from '../images/guess-the-word.webp'
 
 
 function Projects (){
@@ -57,6 +57,7 @@ function Projects (){
         <div className="projects">
             
         {projects.map(( p , index )=>(
+            
             <div key={index} className="project">
                 <a href={p.url} target="_blank" rel="noopener noreferrer">
                     <img src={p.image} alt={p.name} className='project-image'></img>

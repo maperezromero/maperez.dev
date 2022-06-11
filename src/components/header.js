@@ -1,7 +1,7 @@
-import profilePicture from '../images/perfil.jpg'
-import github from '../images/github.png'
-import linkedin from '../images/linkedin_b.png'
-import logo from '../images/1.png'
+import profilePicture from '../images/perfil.webp'
+import github from '../images/github.webp'
+import linkedin from '../images/linkedin_b.webp'
+import logo from '../images/1.webp'
 import { Technologies } from './Technologies'
 function Header (){
 return(
@@ -9,8 +9,7 @@ return(
 
         <div className='icons-container'>
             <span className='logo-container'>
-                    <img src={logo} alt="maperez.dev logo" className='logo'></img>
-                
+                <img src={logo} alt="maperez.dev logo" className='logo'></img>
             </span>
             <span className='RRSS-container'>
                 <span className='icon-container'>
