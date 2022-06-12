@@ -2,6 +2,7 @@ import profilePicture from '../images/perfil.webp'
 import github from '../images/github.webp'
 import linkedin from '../images/linkedin_b.webp'
 import logo from '../images/1.webp'
+import logoM from '../images/1.25.webp'
 import { Technologies } from './Technologies'
 function Header (){
 return(
@@ -9,7 +10,18 @@ return(
 
         <div className='icons-container'>
             <span className='logo-container'>
-                <img src={logo} alt="maperez.dev logo" className='logo'></img>
+                <img 
+                    /* src={logo} 
+                    alt="maperez.dev logo" 
+                    className='logo'> */
+                    className='logo'
+                    srcSet={`${logoM} 480w,
+                            ${logo} 800w`}
+                    sizes="(max-width: 600px) 480px,
+                            800px"
+                    src="../images/1.webp"
+                    alt="maperez.dev logo">
+                </img>
             </span>
             <span className='RRSS-container'>
                 <span className='icon-container'>
@@ -35,7 +47,7 @@ return(
                 Miguel Ángel Pérez
             </h1>
             <h2>
-                Soy full stack developer, apasionado de la tecnología y amante 
+                Soy full stack developer, apasionado de la tecnología, amante 
                 de la naturaleza y el aprendizaje continuo como forma de vida.
             </h2>
             <Technologies/>
