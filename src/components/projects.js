@@ -75,9 +75,9 @@ function Projects (){
                     {/* <img src={p.image} alt={p.name} className='project-image'></img> */}
                     <img 
                     className='project-image'
-                    srcSet={`${p.imageM} 480w,
+                    srcSet={`${p.imageM} 320w,
                             ${p.image} 800w`}
-                    sizes="(max-width: 640px) 480px,
+                    sizes="(max-width: 640px) 320px,
                             800px"
                     src={`${p.image}`}
                     alt={`${p.name}`}>
