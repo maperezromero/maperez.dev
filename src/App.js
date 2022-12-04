@@ -20,7 +20,8 @@ function App() {
     'Responsive Design',
     'MongoDB',
     'CSS',
-    'React'
+    'React',
+    'Jenkins'
   ];
 
   useEffect(()=>{
