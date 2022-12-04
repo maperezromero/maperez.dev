@@ -47,8 +47,8 @@ return(
                 Miguel Ángel Pérez
             </h1>
             <h2>
-                Soy full stack developer, apasionado de la tecnología, amante 
-                de la naturaleza y el aprendizaje continuo como forma de vida.
+                Soy full stack developer, apasionado de la tecnología y el aprendizaje continuo 
+                como forma de vida y amante de la naturaleza.
             </h2>
             <Technologies/>
         </div>
